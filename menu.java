@@ -104,7 +104,7 @@ protected void onCreate(Bundle savedInstanceState) {
         Intent intent = getIntent();
         String id = intent.getExtras().getString("id");
         RequestQueue queue = Volley.newRequestQueue(this);
-        String url ="http://192.168.0.4:8080/mbr/member?id="+id;
+        String url ="http://localhost:8080/mbr/member?id="+id;
 
         // Request a string response from the provided URL.
 
