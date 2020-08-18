@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class LoginRequest extends StringRequest{
-    final static private String url = "http://192.168.0.4:8080/mbr/login";
+    final static private String url = "http://localhost:8080/mbr/login";
     private Map<String,String> parameters;
 
 
