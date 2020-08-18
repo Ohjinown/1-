@@ -57,7 +57,7 @@ public class RegisteActivity extends AppCompatActivity {
         Object symbol;
 
         //URL
-        final String url = "http://192.168.0.4:8080/mbr/member";
+        final String url = "http://localhost:8080/mbr/member";
 
 
         reet1 = (EditText) findViewById(R.id.reet1);//사원번호
