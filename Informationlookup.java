@@ -71,7 +71,7 @@ public class Informationlookup extends AppCompatActivity {
                 if (pw.trim().equals("")) {
                     Toast.makeText(getApplicationContext(), "정보 수정 실패", Toast.LENGTH_LONG).show();
                 } else {
-                    url = "http://192.168.0.4:8080/mbr/change";
+                    url = "http://localhost:8080/mbr/change";
                      RequestQueue queue = Volley.newRequestQueue(Informationlookup.this);
                     StringRequest putRequest = new StringRequest(Request.Method.PUT, url,
                             new Response.Listener<String>() {
